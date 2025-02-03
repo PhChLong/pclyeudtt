@@ -1,0 +1,49 @@
+body{
+    background-image: url(images/background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'Dancing Script';
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
+}
+h2{
+    font-family: "Dancing Script";
+    font-size: 4em;
+    margin:20px;
+    
+}
+h3{
+    font-family: "Dancing Script";
+    font-size: 2.2em;
+    margin: 5px;
+}
+h4{
+    font-family: "Dancing Script";
+    font-size: 1.4em;
+    margin:5px;
+}
+li{
+    font-family: "Dancing Script";
+    font-size: 1.3em;
+}
+p{
+    font-family: "Dancing Script";
+    font-size: 1.3em;
+}
+.title{
+    text-align: center;
+    
+}
+.ending1{
+    width:50%;
+    text-align: center;
+}
+.ending2{
+    position: relative;
+    width:50%;
+    text-align: center;
+    transform: translateX(-25px);
+}
